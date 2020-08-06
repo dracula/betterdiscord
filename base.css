@@ -1,0 +1,29 @@
+:root {
+  --background-primary: #282a36 !important;
+  --background-secondary: #282a36 !important;
+  --background-secondary-alt: #282a36 !important;
+  --background-tertiary: #282a36 !important;
+  --background-accent: #282a36 !important;
+  --background-floating: #282a36 !important;
+  --activity-card-background: #282a36 !important;
+
+  --interactive-normal: #f8f8f2 !important;
+  --channeltextarea-background: #44475a !important;
+
+  --rs-online-color: #50fa7b !important;
+  --rs-idle-color: #ffb86c !important;
+  --rs-dnd-color: #ff5555 !important;
+  --rs-offline-color: #44475a !important;
+  --rs-streaming-color: #bd93f9 !important;
+  --rs-invisible-color: #6272a4 !important;
+}
+.da-acronym {
+  --background-primary: #44475a !important;
+}
+
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  background-color: var(--channeltextarea-background) !important;
+  border: 4px solid var(--background-primary) !important;
+  border-radius: 8px !important;
+}
