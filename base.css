@@ -35,6 +35,10 @@
   --background-primary: var(--dracula-selection) !important;
 }
 
+.container-1D34oG.da-container {
+  background-color: var(--dracula-background) !important;
+}
+
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background-color: var(--dracula-comment) !important
 }
