@@ -17,7 +17,7 @@
   --background-secondary: var(--dracula-background) !important;
   --background-secondary-alt: var(--dracula-background) !important;
   --background-tertiary: var(--dracula-background) !important;
-  --background-accent: var(--dracula-background) !important;
+  --background-accent: var(--dracula-current-line) !important;
   --background-floating: var(--dracula-background) !important;
   --activity-card-background: var(--dracula-background) !important;
   --interactive-normal: var(--dracula-foreground) !important;
@@ -33,6 +33,10 @@
 
 .da-acronym {
   --background-primary: var(--dracula-selection) !important;
+}
+
+.da-repliedMessage {
+    --background-accent: var(--dracula-selection) !important;
 }
 
 .container-1D34oG.da-container {
