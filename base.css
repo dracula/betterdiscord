@@ -39,7 +39,7 @@
     --background-accent: var(--dracula-selection) !important;
 }
 
-.container-1D34oG.da-container {
+.container-1D34oG, .container-1D34oG.da-container {
   background-color: var(--dracula-background) !important;
 }
 
