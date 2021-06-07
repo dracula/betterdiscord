@@ -19,6 +19,7 @@
   --background-tertiary: var(--dracula-background) !important;
   --background-accent: var(--dracula-current-line) !important;
   --background-floating: var(--dracula-background) !important;
+  --background-modifier-selected: var(--dracula-current-line) !important;
   --activity-card-background: var(--dracula-background) !important;
   --interactive-normal: var(--dracula-foreground) !important;
   --channeltextarea-background: var(--dracula-selection) !important;
@@ -31,23 +32,20 @@
   --interactive-muted: var(--dracula-comment) !important;
 }
 
-.da-acronym {
-  --background-primary: var(--dracula-selection) !important;
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--dracula-comment) !important;
 }
 
-.da-repliedMessage {
-    --background-accent: var(--dracula-selection) !important;
-}
-
-.container-1D34oG.da-container {
+/* Home */
+.container-1D34oG {
   background-color: var(--dracula-background) !important;
 }
 
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: var(--dracula-comment) !important
-}
-
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+/* Scroll Bar */
+.theme-dark
+  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
+  .scroller-2FKFPG::-webkit-scrollbar-track-piece {
   background-color: var(--dracula-selection) !important;
   border: 4px solid var(--dracula-background) !important;
   border-radius: 8px !important;
@@ -55,7 +53,7 @@
 
 /* Syntax Highlighing in Code Blocks*/
 code {
-  color: var(--dracula-foreground) !important
+  color: var(--dracula-foreground) !important;
 }
 span.hljs-built_in {
   color: var(--dracula-purple) !important;
