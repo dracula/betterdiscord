@@ -1,4 +1,4 @@
-### [BetterDiscord](https://betterdiscord.net)
+### [BetterDiscord](https://betterdiscord.app)
 
 #### Installing manually
 
