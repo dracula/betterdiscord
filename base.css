@@ -1,5 +1,13 @@
+/**
+ * @name Dracula Theme
+ * @author Kabir Kwatra
+ * @authorId 168376512272269313
+ * @version 1.0.0
+ * @description 🧛🏻‍♂️ Dark theme for all the things
+ * @source https://github.com/Dracula/BetterDiscord
+**/
 :root {
-  /* Dracula Colors */
+  /* Dracula Base Colors */
   --dracula-background: #282a36 !important;
   --dracula-current-line: #44475a !important;
   --dracula-selection: #44475a !important;
@@ -12,11 +20,39 @@
   --dracula-purple: #bd93f9 !important;
   --dracula-red: #ff5555 !important;
   --dracula-yellow: #f1fa8c !important;
+  /* Dracula ANSI Colors */
+  --dracula-color0: #21222c !important;
+  --dracula-color1: #ff5555 !important;
+  --dracula-color2: #50fa7b !important;
+  --dracula-color3: #f1fa8c !important;
+  --dracula-color4: #f1fa8c !important;
+  --dracula-color5: #ff79c6 !important;
+  --dracula-color6: #8be9fd !important;
+  --dracula-color7: #f8f8f2 !important;
+  --dracula-color8: #6272a4 !important;
+  --dracula-color9: #ff6e6e !important;
+  --dracula-color10: #69ff94 !important;
+  --dracula-color11: #ffffa5 !important;
+  --dracula-color12: #d6acff !important;
+  --dracula-color13: #ff92df !important;
+  --dracula-color14: #a4ffff !important;
+  --dracula-color15: #ffffff !important;
+  /* Dracula Other Colors */
+  --dracula-line-highlight: #44475a75 !important;
+  --dracula-non-text: #ffffff1a !important;
+  --dracula-white: #ffffff !important;
+  --dracula-tab-drop-background: #44475a70 !important;
+  --dracula-background-lighter: #424450;
+  --dracula-background-alt: #343746 !important;
+
   /* Discord Root Colors */
+  --header-primary: var(--dracula-foreground) !important;
   --background-primary: var(--dracula-background) !important;
   --background-secondary: var(--dracula-background) !important;
+  --background-mobile-primary: var(--dracula-background) !important;
+  --background-mobile-secondary: var(--dracula-background) !important;
   --background-secondary-alt: var(--dracula-background) !important;
-  --background-tertiary: var(--dracula-background) !important;
+  --background-tertiary: var(--dracula-background-alt) !important;
   --background-accent: var(--dracula-current-line) !important;
   --background-floating: var(--dracula-background) !important;
   --background-modifier-selected: var(--dracula-current-line) !important;
@@ -30,6 +66,13 @@
   --rs-streaming-color: var(--dracula-purple) !important;
   --rs-invisible-color: var(--dracula-comment) !important;
   --interactive-muted: var(--dracula-comment) !important;
+  --scrollbar-auto-thumb: var(--dracula-comment) !important;
+  --scrollbar-auto-track: var(--dracula-background-alt) !important;
+  --scrollbar-thin-thumb: var(--dracula-comment) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--dracula-comment) !important;
+  --scrollbar-auto-scrollbar-color-track: var(
+    --dracula-background-alt
+  ) !important;
 }
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
@@ -40,15 +83,6 @@
 /* Home */
 .container-2cd8Mz {
   background-color: var(--dracula-background) !important;
-}
-
-/* Scroll Bar */
-.theme-dark
-  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
-  .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-  background-color: var(--dracula-selection) !important;
-  border: 4px solid var(--dracula-background) !important;
-  border-radius: 8px !important;
 }
 
 /* Autocomplete popup */
@@ -63,6 +97,84 @@
 /* Autocomplete popup selection */
 .selected-3H3-RC {
   background-color: var(--dracula-selection) !important;
+}
+
+/* Scroll Bar */
+.theme-dark
+  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
+  .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  background-color: var(--dracula-selection) !important;
+  border: 4px solid var(--dracula-background) !important;
+  border-radius: 8px !important;
+}
+/* Outlines */
+.scroller-kQBbkU,
+.form-3gdLxP,
+.members-3WRCEx,
+.scroller-1ox3I2,
+.panels-3wFtMD,
+.scroller-3X7KbA,
+.container-ZMc96U.themed-Hp1KC_,
+.header-3OsQeK,
+.searchBar-zdmu7v,
+.scroller-2LSbBU,
+.searchBar-3TnChZ,
+.peopleColumn-1wMU14,
+.container-3u6dG-,
+.scroller-9moviB,
+.nowPlayingColumn-1eCBCN,
+.header-2V-4Sw {
+  border-color: var(--dracula-current-line) !important;
+  border-style: solid !important;
+}
+/* Chat */
+.scroller-kQBbkU {
+  border-width: 1px 1px 0 1px !important;
+}
+/* Message Box */
+.form-3gdLxP {
+  border-width: 0 1px 1px !important;
+}
+/* Member List */
+.members-3WRCEx {
+  border-width: 1px 1px 1px 0 !important;
+}
+/* Channel List */
+.scroller-1ox3I2 {
+  border-width: 1px 0 0 0 !important;
+}
+/* User Area */
+.panels-3wFtMD {
+  border-width: 1px 0 1px 0 !important;
+}
+/* Guild List */
+.scroller-3X7KbA {
+  border-width: 1px !important;
+}
+/* Channel Header */
+.container-ZMc96U.themed-Hp1KC_ {
+  border-width: 1px 1px 0 0 !important;
+}
+/* Guild Header */
+.header-3OsQeK {
+  border-width: 1px 0 0 0 !important;
+}
+/* Search Bar */
+.searchBar-zdmu7v {
+  border-width: 1px !important;
+}
+.searchBar-3TnChZ {
+  border-width: 1px 0 0 0 !important;
+}
+/* People, Game Library, Nitro */
+.peopleColumn-1wMU14,
+.container-3u6dG-,
+.scroller-9moviB {
+  border-width: 1px !important;
+}
+/* Now Playing Column */
+.nowPlayingColumn-1eCBCN {
+  border-width: 1px 1px 1px 0 !important;
 }
 
 /* Syntax Highlighing in Code Blocks*/
