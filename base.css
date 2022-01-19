@@ -38,7 +38,7 @@
 }
 
 /* Home */
-.container-1D34oG {
+.container-2cd8Mz {
   background-color: var(--dracula-background) !important;
 }
 
@@ -49,6 +49,20 @@
   background-color: var(--dracula-selection) !important;
   border: 4px solid var(--dracula-background) !important;
   border-radius: 8px !important;
+}
+
+/* Autocomplete popup */
+.autocomplete-3NRXG8 {
+  background-color: var(--dracula-background) !important;
+}
+
+.autocomplete-3jLKbj {
+  background-color: var(--dracula-background) !important;
+}
+
+/* Autocomplete popup selection */
+.selected-3H3-RC {
+  background-color: var(--dracula-selection) !important;
 }
 
 /* Syntax Highlighing in Code Blocks*/
