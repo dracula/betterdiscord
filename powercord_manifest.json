@@ -1,0 +1,9 @@
+{
+  "name": "Dracula",
+  "description": "🧛🏻‍♂️ Dark theme for all the things",
+  "version": "1.0.0",
+  "author": "Kabir Kwatra",
+  "theme": "/Dracula.theme.css",
+  "license": "MIT",
+  "consent": "true"
+}
