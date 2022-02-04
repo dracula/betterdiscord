@@ -123,9 +123,15 @@
 .container-3u6dG-,
 .scroller-9moviB,
 .nowPlayingColumn-1eCBCN,
-.header-2V-4Sw {
+.header-2V-4Sw,
+.contentRegion-3HkfJJ {
   border-color: var(--dracula-current-line) !important;
   border-style: solid !important;
+}
+
+/* Settings Content Pane */
+.contentRegion-3HkfJJ {
+  border-width: 0 0 0 1px !important;
 }
 /* Chat */
 .scroller-kQBbkU {
