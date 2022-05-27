@@ -7,6 +7,15 @@
 
 Move `Dracula.theme.css` file to your BetterDiscord themes folder.
 
+#### [Homebrew](https://brew.sh)
+
+Easily install from [dracula/homebrew-install](https://github.com/dracula/homebrew-install/blob/master/Casks/dracula-betterdiscord.rb):
+
+``` sh
+brew tap dracula/install
+brew install --cask dracula-betterdiscord
+```
+
 #### Activating theme
 
 1. Open Discord user settings
