@@ -99,6 +99,11 @@
   background-color: var(--dracula-selection) !important;
 }
 
+/* Friends Menu Header */
+.container-ZMc96U.themed-Hp1KC_{
+  background-color: var(--dracula-background) !important;
+}
+
 /* Scroll Bar */
 .theme-dark
   .scrollerThemed-2oenus.themedWithTrack-q8E3vB
