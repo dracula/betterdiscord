@@ -104,6 +104,24 @@
   background-color: var(--dracula-background) !important;
 }
 
+/* Emoji/Gif Selector Box*/
+.contentWrapper-3vHNP2,
+.container-3u7RcY,
+.wrapper-1NNaWG,
+.wrapper-1NNaWG,
+.inspector-DFKXwB,
+.wrapper-22rqw6,
+.listWrapper-2nHLP8,
+.categoryItem-1sHzUv,
+.guildIcon-2SUGiq,
+.header-11eigE{
+  background-color: var(--dracula-background) !important;
+}
+.container-1SX9VC,
+.container-2oNtJn{
+  background-color: var(--dracula-selection) !important;
+}
+
 /* Scroll Bar */
 .theme-dark
   .scrollerThemed-2oenus.themedWithTrack-q8E3vB
