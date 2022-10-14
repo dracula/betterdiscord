@@ -1,6 +1,6 @@
-# Dracula for [BetterDiscord](https://betterdiscord.net)
+# Dracula for [BetterDiscord](https://betterdiscord.app)
 
-> A dark theme for [BetterDiscord](https://betterdiscord.net).
+> A dark theme for [BetterDiscord](https://betterdiscord.app).
 
 ![Screenshot](./screenshot.png)
 
