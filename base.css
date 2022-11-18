@@ -205,6 +205,16 @@
 .nowPlayingColumn-1eCBCN {
   border-width: 1px 1px 1px 0 !important;
 }
+/* Pinned Message Box*/
+.header-1w9Q93{
+  background-color: var(--dracula-background);
+}
+.messagesPopout-eVzQcI{
+  background-color: var(--dracula-background-alt);
+}
+.messageGroupWrapper-1jf_7C{
+  background-color: var(--dracula-background);
+}
 
 /* Syntax Highlighing in Code Blocks*/
 code {
