@@ -18,6 +18,6 @@ brew install --cask dracula-betterdiscord
 
 #### Activating theme
 
-1. Open Discord user settings
-2. Navigate to the Themes section
+1. Open Discord user settings.
+2. Navigate to the Themes section.
 3. Enable the Dracula Theme listed.
