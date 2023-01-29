@@ -216,6 +216,57 @@
   background-color: var(--dracula-background);
 }
 
+/* Create DM Popout */
+.popout-3gby1q {
+    background-color: var(--dracula-background);
+}
+/* Search field */
+.searchBarComponent-18D6hD {
+    background-color: var(--dracula-background-alt);
+}
+/* Selected friend */
+.friendSelected-3cwmD7 {
+    background-color: var(--dracula-selection);
+}
+/* Added to the list */
+.anchor-1MIwyf {
+    background-color: var(--dracula-background);
+}
+
+/* Inbox Popout */
+.header-145e10, .header-1w9Q93 {
+    background-color: var(--dracula-background);
+}
+/* Active Tab selected text */
+.active-1grPyy {
+    background-color: var(--dracula-background-alt);
+}
+/* Popout container */
+.messagesPopout-eVzQcI {
+    background-color: var(--dracula-background-alt);
+}
+/* Channel Header */
+.channelHeader-DFRX8q{
+    background-color: var(--dracula-background-alt);
+}
+/* List element */
+.container-iA3Qrz {
+    background-color: var(--dracula-background-alt);
+}
+/* Message Content */
+.messageContainer-3VTXBC {
+    background-color: var(--dracula-background);
+}
+
+/* Unread list */
+.scroller-145h9c {
+    background-color: var(--dracula-background-alt);
+}
+/* Unread messages */
+.messages-23can0 {
+    background-color: var(--dracula-background);
+}
+
 /* Syntax Highlighing in Code Blocks*/
 code {
   color: var(--dracula-foreground) !important;
