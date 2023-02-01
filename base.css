@@ -267,6 +267,11 @@
     background-color: var(--dracula-background);
 }
 
+/* For you tab */
+.container-1A0qQO {
+    background-color: var(--dracula-background-alt);
+}
+
 /* Syntax Highlighing in Code Blocks*/
 code {
   color: var(--dracula-foreground) !important;
