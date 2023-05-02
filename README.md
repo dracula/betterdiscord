@@ -12,13 +12,9 @@ All instructions can be found at [draculatheme.com/betterdiscord](https://dracul
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/betterdiscord/graphs/contributors).
 
-| [![Dominic Ruggiero](https://github.com/mrhappyma.png?size=100)](https://github.com/mrhappyma) |
-| ---------------------------------------------------------------------------------------------- |
-| [Dominic Ruggiero](https://github.com/mrhappyma)                                               |
-
-| [![Kabir Kwatra](https://github.com/kab1r.png?size=100)](https://github.com/KabirKwatra)       |
-| ---------------------------------------------------------------------------------------------- |
-| [Kabir Kwatra](https://github.com/kab1r)                                                       |
+| [![Dominic Ruggiero](https://github.com/mrhappyma.png?size=100)](https://github.com/mrhappyma) | [![Kabir Kwatra](https://github.com/kab1r.png?size=100)](https://github.com/kab1r) |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [Dominic Ruggiero](https://github.com/mrhappyma) | [Kabir Kwatra](https://github.com/kab1r) |
 
 
 ## Community
