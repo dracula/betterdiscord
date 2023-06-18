@@ -7,7 +7,6 @@
  * @source https://github.com/Dracula/BetterDiscord
 **/
 :root {
-  /* Dracula Base Colors */
   --dracula-background: #282a36 !important;
   --dracula-current-line: #44475a !important;
   --dracula-selection: #44475a !important;
@@ -20,24 +19,6 @@
   --dracula-purple: #bd93f9 !important;
   --dracula-red: #ff5555 !important;
   --dracula-yellow: #f1fa8c !important;
-  /* Dracula ANSI Colors */
-  --dracula-color0: #21222c !important;
-  --dracula-color1: #ff5555 !important;
-  --dracula-color2: #50fa7b !important;
-  --dracula-color3: #f1fa8c !important;
-  --dracula-color4: #f1fa8c !important;
-  --dracula-color5: #ff79c6 !important;
-  --dracula-color6: #8be9fd !important;
-  --dracula-color7: #f8f8f2 !important;
-  --dracula-color8: #6272a4 !important;
-  --dracula-color9: #ff6e6e !important;
-  --dracula-color10: #69ff94 !important;
-  --dracula-color11: #ffffa5 !important;
-  --dracula-color12: #d6acff !important;
-  --dracula-color13: #ff92df !important;
-  --dracula-color14: #a4ffff !important;
-  --dracula-color15: #ffffff !important;
-  /* Dracula Other Colors */
   --dracula-line-highlight: #44475a75 !important;
   --dracula-non-text: #ffffff1a !important;
   --dracula-white: #ffffff !important;
@@ -45,32 +26,34 @@
   --dracula-background-lighter: #424450;
   --dracula-background-alt: #343746 !important;
 
-  /* Discord Root Colors */
-  --header-primary: var(--dracula-foreground) !important;
-  --background-primary: var(--dracula-background) !important;
-  --background-secondary: var(--dracula-background) !important;
-  --background-mobile-primary: var(--dracula-background) !important;
-  --background-mobile-secondary: var(--dracula-background) !important;
-  --background-secondary-alt: var(--dracula-background) !important;
-  --background-tertiary: var(--dracula-background-alt) !important;
+  --activity-card-background: var(--dracula-background) !important;
   --background-accent: var(--dracula-current-line) !important;
   --background-floating: var(--dracula-background) !important;
+  --background-mobile-primary: var(--dracula-background) !important;
+  --background-mobile-secondary: var(--dracula-background-lighter) !important;
   --background-modifier-selected: var(--dracula-current-line) !important;
-  --activity-card-background: var(--dracula-background) !important;
-  --interactive-normal: var(--dracula-foreground) !important;
+  --background-primary: var(--dracula-background) !important;
+  --home-background: var(--dracula-background-alt) !important;
+  --background-secondary-alt: var(--dracula-background) !important;
+  --background-secondary: var(--dracula-background-lighter) !important;
+  --background-tertiary: var(--dracula-background-alt) !important;
   --channeltextarea-background: var(--dracula-selection) !important;
-  --rs-online-color: var(--dracula-green) !important;
-  --rs-idle-color: var(--dracula-orange) !important;
-  --rs-dnd-color: var(--dracula-red) !important;
-  --rs-offline-color: var(--dracula-selection) !important;
-  --rs-streaming-color: var(--dracula-purple) !important;
-  --rs-invisible-color: var(--dracula-comment) !important;
+  --header-primary: var(--dracula-foreground) !important;
   --interactive-muted: var(--dracula-comment) !important;
+  --interactive-normal: var(--dracula-foreground) !important;
+  --rs-dnd-color: var(--dracula-red) !important;
+  --rs-idle-color: var(--dracula-orange) !important;
+  --rs-invisible-color: var(--dracula-comment) !important;
+  --rs-offline-color: var(--dracula-selection) !important;
+  --rs-online-color: var(--dracula-green) !important;
+  --rs-streaming-color: var(--dracula-purple) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--dracula-comment) !important;
+  --scrollbar-auto-scrollbar-color-track: var(
+    --dracula-background-alt
+  ) !important;
   --scrollbar-auto-thumb: var(--dracula-comment) !important;
   --scrollbar-auto-track: var(--dracula-background-alt) !important;
   --scrollbar-thin-thumb: var(--dracula-comment) !important;
-  --scrollbar-auto-scrollbar-color-thumb: var(--dracula-comment) !important;
-  --scrollbar-auto-scrollbar-color-track: var(--dracula-background-alt) !important;
 }
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
@@ -78,12 +61,10 @@
   background-color: var(--dracula-comment) !important;
 }
 
-/* Home */
 .container-2cd8Mz {
   background-color: var(--dracula-background) !important;
 }
 
-/* Autocomplete popup */
 .autocomplete-3NRXG8 {
   background-color: var(--dracula-background) !important;
 }
@@ -92,17 +73,14 @@
   background-color: var(--dracula-background) !important;
 }
 
-/* Autocomplete popup selection */
 .selected-3H3-RC {
   background-color: var(--dracula-selection) !important;
 }
 
-/* Friends Menu Header */
 .container-ZMc96U.themed-Hp1KC_ {
   background-color: var(--dracula-background) !important;
 }
 
-/* Emoji/Gif Selector Box*/
 .contentWrapper-3vHNP2,
 .container-3u7RcY,
 .wrapper-1NNaWG,
@@ -121,102 +99,6 @@
   background-color: var(--dracula-selection) !important;
 }
 
-/* Scroll Bar */
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-  background-color: var(--dracula-selection) !important;
-  border: 4px solid var(--dracula-background) !important;
-  border-radius: 8px !important;
-}
-
-/* Outlines */
-.scroller-kQBbkU,
-.form-3gdLxP,
-.members-3WRCEx,
-.scroller-1ox3I2,
-.panels-3wFtMD,
-.scroller-3X7KbA,
-.container-ZMc96U.themed-Hp1KC_,
-.header-3OsQeK,
-.searchBar-zdmu7v,
-.scroller-2LSbBU,
-.searchBar-3TnChZ,
-.peopleColumn-1wMU14,
-.container-3u6dG-,
-.scroller-9moviB,
-.nowPlayingColumn-1eCBCN,
-.header-2V-4Sw,
-.contentRegion-3HkfJJ {
-  border-color: var(--dracula-current-line) !important;
-  border-style: solid !important;
-}
-
-/* Settings Content Pane */
-.contentRegion-3HkfJJ {
-  border-width: 0 0 0 1px !important;
-}
-
-/* Chat */
-.scroller-kQBbkU {
-  border-width: 1px 1px 0 1px !important;
-}
-
-/* Message Box */
-.form-3gdLxP {
-  border-width: 0 1px 1px !important;
-}
-
-/* Member List */
-.members-3WRCEx {
-  border-width: 1px 1px 1px 0 !important;
-}
-
-/* Channel List */
-.scroller-1ox3I2 {
-  border-width: 1px 0 0 0 !important;
-}
-
-/* User Area */
-.panels-3wFtMD {
-  border-width: 1px 0 1px 0 !important;
-}
-
-/* Guild List */
-.scroller-3X7KbA {
-  border-width: 1px !important;
-}
-
-/* Channel Header */
-.container-ZMc96U.themed-Hp1KC_ {
-  border-width: 1px 1px 0 0 !important;
-}
-
-/* Guild Header */
-.header-3OsQeK {
-  border-width: 1px 0 0 0 !important;
-}
-
-/* Search Bar */
-.searchBar-zdmu7v {
-  border-width: 1px !important;
-}
-
-.searchBar-3TnChZ {
-  border-width: 1px 0 0 0 !important;
-}
-
-/* People, Game Library, Nitro */
-.peopleColumn-1wMU14,
-.container-3u6dG-,
-.scroller-9moviB {
-  border-width: 1px !important;
-}
-
-/* Now Playing Column */
-.nowPlayingColumn-1eCBCN {
-  border-width: 1px 1px 1px 0 !important;
-}
-
-/* Pinned Message Box*/
 .header-1w9Q93 {
   background-color: var(--dracula-background);
 }
@@ -229,73 +111,59 @@
   background-color: var(--dracula-background);
 }
 
-/* Create DM Popout */
 .popout-3gby1q {
   background-color: var(--dracula-background);
 }
 
-/* Search field */
 .searchBarComponent-18D6hD {
   background-color: var(--dracula-background-alt);
 }
 
-/* Selected friend */
 .friendSelected-3cwmD7 {
   background-color: var(--dracula-selection);
 }
 
-/* Added to the list */
 .anchor-1MIwyf {
   background-color: var(--dracula-background);
 }
 
-/* Inbox Popout */
 .header-145e10,
 .header-1w9Q93 {
   background-color: var(--dracula-background);
 }
 
-/* Active Tab selected text */
 .active-1grPyy {
   background-color: var(--dracula-background-alt);
 }
 
-/* Popout container */
 .messagesPopout-eVzQcI {
   background-color: var(--dracula-background-alt);
 }
 
-/* Channel Header */
 .channelHeader-DFRX8q {
   background-color: var(--dracula-background-alt);
 }
 
-/* List element */
 .container-iA3Qrz {
   background-color: var(--dracula-background-alt);
 }
 
-/* Message Content */
 .messageContainer-3VTXBC {
   background-color: var(--dracula-background);
 }
 
-/* Unread list */
 .scroller-145h9c {
   background-color: var(--dracula-background-alt);
 }
 
-/* Unread messages */
 .messages-23can0 {
   background-color: var(--dracula-background);
 }
 
-/* For you tab */
 .container-1A0qQO {
   background-color: var(--dracula-background-alt);
 }
 
-/* Syntax Highlighing in Code Blocks*/
 code {
   color: var(--dracula-foreground) !important;
 }
