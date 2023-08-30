@@ -13,15 +13,18 @@ All instructions can be found at [draculatheme.com/betterdiscord](https://dracul
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/betterdiscord/graphs/contributors).
 
 | [![Dominic Ruggiero](https://github.com/mrhappyma.png?size=100)](https://github.com/mrhappyma) | [![Kabir Kwatra](https://github.com/kab1r.png?size=100)](https://github.com/kab1r) |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Dominic Ruggiero](https://github.com/mrhappyma) | [Kabir Kwatra](https://github.com/kab1r) |
-
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Dominic Ruggiero](https://github.com/mrhappyma)                                               | [Kabir Kwatra](https://github.com/kab1r)                                           |
 
 ## Community
 
 - [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
 - [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
 - [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+
+## Dracula PRO
+
+[![Dracula PRO](./dracula-pro.png)](https://draculatheme.com/pro)
 
 ## License
 

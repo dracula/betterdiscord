@@ -2,8 +2,8 @@
 
 #### Installing manually
 
-* Download using the [Dracula.theme.css](https://raw.githubusercontent.com/dracula/BetterDiscord/master/Dracula_Official.theme.css) link or
-* Download using the [Github .zip download](https://github.com/dracula/BetterDiscord/archive/master.zip) option and unzip them.
+- [Use this link](https://raw.githubusercontent.com/dracula/BetterDiscord/master/Dracula_Official.theme.css) or
+- download using the [Github `.zip` download](https://github.com/dracula/BetterDiscord/archive/master.zip) option and unzip them.
 
 Move `Dracula_Official.theme.css` file to your BetterDiscord themes folder.
 
@@ -11,7 +11,7 @@ Move `Dracula_Official.theme.css` file to your BetterDiscord themes folder.
 
 Easily install from [dracula/homebrew-install](https://github.com/dracula/homebrew-install/blob/master/Casks/dracula-betterdiscord.rb):
 
-``` sh
+```bash
 brew tap dracula/install
 brew install --cask dracula-betterdiscord
 ```
