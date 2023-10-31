@@ -207,3 +207,11 @@ span.hljs-meta-keyword {
 span.hljs-meta-string {
   color: var(--dracula-orange) !important;
 }
+
+/* Current channel */
+div[class*="modeSelected"] > div  > a[data-list-item-id*="channels"]{
+  background-color: var(--dracula-comment) !important;
+}
+div[class*="modeSelected"] > div  > a[data-list-item-id*="channels"] svg, div:hover > a[data-list-item-id*="channels"] svg {
+  color: var(--dracula-white) !important;
+}
